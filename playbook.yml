@@ -1,6 +1,5 @@
 ---
 - name: Run HelloWorld Role
-  hosts: local
   gather_facts: false
   roles:
     - helloworld
